@@ -1,0 +1,23 @@
+/*comentarios en CSS*/
+/*lenguaje de estilos de diseño web - hoja de estilos  en cascada*/
+/*selector{
+    propiedad:valor;
+} */
+/* selector de clase 
+selector de etiqueta 
+selector de id "mas importante"
+*/
+div{
+    background-color: blueviolet;
+}
+div{
+    background-color: brown;
+}
+.card{
+    background-color: rgb(128, 128, 128);
+    border: 1px solid black
+    width 50%;
+}
+#carduno{
+    background-color: aqua;
+}

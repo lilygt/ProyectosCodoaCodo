@@ -1,0 +1,82 @@
+/*box modeling
+los elementos de la web comparten elementos en comun se comportan como caja
+margen- marging
+padding-margen interno
+contend- contenido
+border-borde
+width-ancho
+height-alto
+*/
+/*propiedades del display
+display: block : div section p nav header y footer
+display: in line : img video ancla iframe
+display: inline-block es el mejor
+display: none
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    font-size: 30px;
+    text-align: center;
+    /*display: inline;*/
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    margin: 100px 50px 20px 30px;
+    margin: 50px 100px;
+    margin: 20px auto;
+    padding: 50px 100px;
+    border: 1px solid black;
+    box-shadow: 58px 64px 27px 3px rgba(57,71,163,0.64);
+-webkit-box-shadow: 58px 64px 27px 3px rgba(57,71,163,0.64);
+-moz-box-shadow: 58px 64px 27px 3px rgba(57,71,163,0.64);
+    border-radius: 20px;
+   
+}
+h1{
+    width: 300px;
+    background-color: blueviolet;
+}
+.verde{
+    background-color:rgb(0, 255, 128)
+    /*display: block;
+    display: none;
+    display: block;*/
+}
+.rosa{
+    background-color: rgb(230, 27, 196);
+}
+.ancla{
+    display:inline-block;
+    width: 20px;
+    /*height: 50px;*/
+    background-color: brown;
+    padding: 30px;
+    margin: 30px;
+    /*padding: 50px;*/
+}
+.caja{
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 2rem;
+    width: 600px;
+    height: 600px;/*height: 600px;*/
+    overflow: auto; /*scroll; hidden;*/
+
+}
+.caja1{
+    background-color: blue;
+    border:1px solid black ;
+    text-align: center;
+    font-size: 2rem;
+    width: 50%; /* ocupa la mitad de la pantalla no es lo mismo para el heigh*/
+    height: 100px;
+    margin: 0 auto ;
+    height: 50vh; /* ocupa la mitad de la pantalla a lo largo*/
+    /* si en el body que es el padre colocamos un heingt: 1200px; entonces al poner en .caja el heingt: 30%; este es relativo al valor del padre "body"*/
+}
